@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-color: #F3F9FB;
     font-family: Arial, sans-serif;
     font-size: 16px;
     line-height: 1.6em;
@@ -55,6 +55,7 @@ a{
     margin-top:0;
     border: 1px solid #EDEDED;
     padding-bottom:20px ;
+    background-color: white;
     
 }
 .search,.search ul {
@@ -162,6 +163,7 @@ input:focus {
     align-items: center;
     justify-items: center;
     border: 1px solid #EDEDED;
+    background-color: white;
 }
 .category li svg{
     width: 20px;
@@ -187,7 +189,7 @@ input:focus {
 .announce .box {
     background-color: #008F6C;
     border-radius:10px ;
-    width: 750px;
+    width: 1200px;
     height: 400px;
 }
 .announce .button-l{
@@ -219,3 +221,110 @@ input:focus {
     height: 40px;
     fill: white;
 }
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.box-1{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 227px;
+    height: 295px;
+    background-color: #F5F5F5;
+    margin: 20px;
+    padding-left: 20px;
+}
+.box-1 img{
+    justify-self: right;
+}
+.product-1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    
+}
+.prod{
+    width: 126px;
+    height: 178px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+.line{
+    width: 1400px;
+    height: 1px;
+    background-color: #EDEDED;
+    margin-bottom: 20px;
+}
+.container-1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 50px;
+}
+
+
+.cate{
+    width: 132px;
+    height: 132px;
+    border-radius: 50%;
+}
+.text{
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+
+}
+.text-container {
+    display: flex;
+    justify-content: space-between;
+}
+.categorys{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    height: auto;
+    justify-content: space-around;
+    width: 60%;
+}
+.separator {
+    border: 1px solid black;
+    width: 90%;
+    height: 1px;
+    background: black; /
+}
+.line {
+    position: relative;
+    border: none;
+    height: 1px;
+    background: black; 
+}
+.brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+.box-3{
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+    margin: 20px;
+    height: 250px;
+}
+.box-3 img {
+    border-radius: 10px; /* Adjust as needed */
+}
+
