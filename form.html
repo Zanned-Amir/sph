@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>landing page </title>
+    <title>Sign-up </title>
     <link rel="stylesheet" href="styleform.css">
     
 </head>
@@ -51,8 +51,70 @@
         </nav>
     </header>
     <main>
+       
+            <form class="form" method="post">
+               
+                <label for="nom">Nom:</label><br>
+                <input type="text" id="nom" name="nom" required><br>
+                
+                <label for="prenom">Prenom:</label><br>
+                <input type="text" id="prenom" name="prenom" required><br>
+                
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                
+                <label for="numero-tele">Numero de Telephone:</label><br>
+                <input type="tel" id="numero-tele" name="numero-tele" required><br>
+                
+                <label for="gender">Sexe:</label><br>
+                <input type="radio" id="homme" name="gender" value="homme" required>
+                <label for="homme">Homme</label><br>
+                <input type="radio" id="femme" name="gender" value="femme" required>
+                <label for="femme">Femme</label><br>
+                
+                <label for="etat">État de résidence:</label><br>
+                <select id="etat" name="etat" required>
+                    <option value="">Sélectionner un état</option>
+                    <option value="ARIANA">Ariana</option>
+                    <option value="BÉJA">Béja</option>
+                    <option value="BEN AROUS">Ben Arous</option>
+                    <option value="BIZERTE">Bizerte</option>
+                    <option value="GABÈS">Gabès</option>
+                    <option value="GAFSA">Gafsa</option>
+                    <option value="JENDOUBA">Jendouba</option>
+                    <option value="KAIROUAN">Kairouan</option>
+                    <option value="KASSERINE">Kasserine</option>
+                    <option value="KÉBILI">Kébili</option>
+                    <option value="KEF">Kef</option>
+                    <option value="MAHDIA">Mahdia</option>
+                    <option value="MANOUBA">Manouba</option>
+                    <option value="MÉDENINE">Médenine</option>
+                    <option value="MONASTIR">Monastir</option>
+                    <option value="NABEUL">Nabeul</option>
+                    <option value="SFAX">Sfax</option>
+                    <option value="SIDI BOUZID">Sidi Bouzid</option>
+                    <option value="SILIANA">Siliana</option>
+                    <option value="SOUSSE">Sousse</option>
+                    <option value="TATAOUINE">Tataouine</option>
+                    <option value="TOZEUR">Tozeur</option>
+                    <option value="TUNIS">Tunis</option>
+                    <option value="ZAGHOUAN">Zaghouan</option>
+                </select><br>
+                
+                <label for="adresse-1">Adresse-1:</label><br>
+                <textarea id="adresse-1" name="adresse-1" placeholder="Adresse" required></textarea><br>
         
+                <label for="adresse-2">Adresse-2:</label><br>
+                <textarea id="adresse-2" name="adresse-2" placeholder="Adresse" required></textarea><br>
+                
+                <input type="submit" value="envoyer">
+                <input type="reset" value="Annuler">
+            
+            </form>
+       
     </main>
+    
+    
     <footer>
         <div class="footer">
           <div class="cargo">

@@ -1,6 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 body{
-    background-color: #8fcadd;
+    background-image: linear-gradient(
+  180deg,
+  hsl(113deg 65% 85%) 0%,
+  hsl(118deg 61% 83%) 2%,
+  hsl(124deg 58% 80%) 19%,
+  hsl(128deg 57% 77%) 66%,
+  hsl(132deg 57% 73%) 84%,
+  hsl(136deg 57% 69%) 92%,
+  hsl(139deg 58% 65%) 97%,
+  hsl(142deg 59% 60%) 99%,
+  hsl(146deg 60% 54%) 100%,
+  hsl(155deg 100% 40%) 100%
+);
     font-family: Arial, sans-serif;
     font-size: 16px;
     line-height: 1.6em;
@@ -185,7 +197,6 @@ input:focus {
     justify-content: center;
     width:100% ;
     height: 450px;
-    background-color: #8fcadd;
 }
 
 .announce .box {
@@ -244,9 +255,14 @@ input:focus {
     margin: 20px;
     padding-left: 20px;
 }
+.box-1:hover{
+    box-shadow: #666666 0px 0px 10px;
+   
+}
 .box-1 img{
     justify-self: right;
 }
+
 .product-1{
     display: flex;
     flex-wrap: wrap;
@@ -256,6 +272,7 @@ input:focus {
     height: auto;
     
 }
+
 .prod{
     width: 126px;
     height: 178px;
@@ -297,10 +314,15 @@ input:focus {
     display: flex;
     align-items: center;
     justify-items: center;
-    height: auto;
+    height: 200px;
     justify-content: space-around;
     width: 60%;
 }
+.categorys a img:hover{
+    border: 3px solid #00CC76;
+    box-sizing: border-box;
+  
+  }
 .separator {
     border: 1px solid black;
     width: 90%;
@@ -326,6 +348,11 @@ input:focus {
     width: 350px;
     margin: 20px;
     height: 250px;
+    border-radius: 10px; 
+}
+.box-3:hover{
+    box-shadow: #666666 0px 0px 10px;
+ 
 }
 .box-3 img {
     border-radius: 10px; 
@@ -363,16 +390,16 @@ input:focus {
   }
   footer{
     display: flex;
-    flex-direction: column;
+  flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     width: 100%;
     height: 549px;
-    padding-bottom: 0px;
     background-color: #00CC76;
     padding-bottom: 20px;
     color:white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
   .cargo{
     display: flex;
@@ -446,3 +473,4 @@ input:focus {
   .cargo ul :last-child {
     margin-bottom: 75px;
   }
+  
