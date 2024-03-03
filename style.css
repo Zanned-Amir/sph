@@ -204,6 +204,9 @@ input:focus {
     border-radius:10px ;
     width: 1200px;
     height: 400px;
+    background-image: url('product/pub.jpg');
+    background-position: center;
+    background-size:auto;
 }
 .announce .button-l{
     z-index: 1;
@@ -212,7 +215,7 @@ input:focus {
     justify-content: center;
     width: 86px;
     height: 86px;
-    background-color: #00bccc;
+    background-color: #749b9e;
     border-radius: 40px;
     margin-right: -45px;
     cursor: pointer;
@@ -224,7 +227,7 @@ input:focus {
     justify-content: center;
     width: 86px;
     height: 86px;
-    background-color: #00bccc;
+    background-color: #749b9e;
     border-radius: 40px;
     margin-left: -45px;
     cursor: pointer;
@@ -324,10 +327,10 @@ input:focus {
   
   }
 .separator {
-    border: 1px solid black;
-    width: 90%;
+    border: 1px solid rgb(114, 111, 111) ;
+    width: 85%;
     height: 1px;
-    background: black; /
+    background: rgb(114, 111, 111); 
 }
 .line {
     position: relative;
@@ -349,6 +352,9 @@ input:focus {
     margin: 20px;
     height: 250px;
     border-radius: 10px; 
+    background-image: url('product/marque.jpg');
+    background-position: center;
+    background-size: cover;
 }
 .box-3:hover{
     box-shadow: #666666 0px 0px 10px;
