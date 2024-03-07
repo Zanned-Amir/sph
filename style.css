@@ -207,6 +207,8 @@ input:focus {
     background-image: url('product/pub.jpg');
     background-position: center;
     background-size:auto;
+    transition: background 0.5s ease-in-out;
+    
 }
 .announce .button-l{
     z-index: 1;
@@ -479,4 +481,5 @@ input:focus {
   .cargo ul :last-child {
     margin-bottom: 75px;
   }
+  
   

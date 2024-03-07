@@ -7,6 +7,35 @@
     <link rel="stylesheet" href="styleform.css">
     
 </head>
+<script>
+    function validateEmail(email) {
+        var re = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+        return re.test(email);
+    }
+    
+    function validateForm() {
+        var email = document.getElementById('email').value;
+        var nom = document.getElementById('nom').value;
+        var prenom = document.getElementById('prenom').value;
+    
+        if (!validateEmail(email)) {
+            alert('Please enter a valid email.');
+            return false;
+        }
+    
+        if (nom === '') {
+            alert('Please enter a nom.');
+            return false;
+        }
+    
+        if (prenom === '') {
+            alert('Please enter a prenom.');
+            return false;
+        }
+    
+        return true;
+    }
+</script>
 <body>
     <header>
         <nav class="info">
@@ -52,7 +81,7 @@
     </header>
     <main>
        
-            <form class="form" method="post">
+            <form class="form" action="index.html" method="GET" onsubmit="return validateForm()" >
                
                 <label for="nom">Nom:</label><br>
                 <input type="text" id="nom" name="nom" required><br>
